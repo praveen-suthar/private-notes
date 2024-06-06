@@ -1,0 +1,75 @@
+body{
+  background-color: rgba(63, 40, 22, 0.055);
+}
+
+.style {
+  width: 30%;
+  height: 100% !important;
+  margin-top: 100px;
+}
+
+.popUp {
+  margin: auto;
+  background-color: rgb(58, 34, 34);
+  width: 20%;
+  padding: 5px;
+}
+
+.headLine {
+  display: flex;
+  align-items: center;
+  gap: 5vmax;
+}
+
+.display-1 {
+  display: inherit !important;
+  font-size: small !important;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+.overlay {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.bgColor {
+  background-color: red;
+}
+
+ .notebook{
+  height: 800px;
+  background-color: rgb(224, 215, 215) !important;
+  font-weight: 500;
+}
+
+textarea { 
+  border-style: none; 
+  border-color: Transparent; 
+  overflow: auto;        
+}
+
+/* 
+css for popUp */
+
+.modal-dialogg{
+  height: 100px ;
+  width: 300px;
+
+}
+
+.modal-content{
+  text-align: center;
+  
+}
+
+.toast-header{
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+}
+
+.toast-header button{
+  font-weight: 800;
+} 
+
